@@ -4,7 +4,7 @@ int snow_flag = false;
 
 
 void setup(){
-    M5.begin(true, false, true);
+    M5.begin(false, false, true); // UART, I2C, LED
 }
 
 uint32_t brown = 0x745030;
